@@ -1,6 +1,6 @@
 package exceptionHandling;
 
-public class MyClass 
+public class SleepWait 
 {
     private static Object LOCK = new Object();
     public static void main(String args[]) throws InterruptedException
