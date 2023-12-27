@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-<<<<<<< HEAD
-	<name>practiceProject</name>
-=======
 	<name>exceptionHandling</name>
->>>>>>> 5705cef4710c70aabc510c1744554818a4a7e42d
 	<comment></comment>
 	<projects>
 	</projects>
@@ -18,8 +14,6 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-<<<<<<< HEAD
-=======
 	<filteredResources>
 		<filter>
 			<id>1703669761140</id>
@@ -31,5 +25,4 @@
 			</matcher>
 		</filter>
 	</filteredResources>
->>>>>>> 5705cef4710c70aabc510c1744554818a4a7e42d
 </projectDescription>
