@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham's Diner</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Shubham's Diner</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100"
+                    src="https://img.freepik.com/free-photo/fresh-gourmet-meal-beef-taco-salad-plate-generated-by-ai_188544-13382.jpg?size=626&ext=jpg"
+                    alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100"
+                    src="https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141352.jpg?size=626&ext=jpg"
+                    alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100"
+                    src="https://img.freepik.com/premium-photo/indian-dhal-spicy-curry-bowl_2829-3302.jpg?size=626&ext=jpg&ga=GA1.1.2031396537.1707545827&semt=ais"
+                    alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100"
+                    src="https://img.freepik.com/premium-photo/uzbek-central-asia-cuisine-concept-assorted-uzbek-food-pilaf-samsa-lagman-manti-shurpa-uzbek-restaurant-concept-uzbek-food_114941-571.jpg?size=626&ext=jpg&ga=GA1.1.2031396537.1707545827&semt=ais"
+                    alt="Forth slide">
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2>About Shubham's Diner</h2>
+            <p>Welcome to Shubham's Diner, where flavors from the East meet the warmth of home-cooked meals. Our story began over a decade ago when Shubham, our founder, set out to create a dining experience that combined traditional Asian cuisine with a modern twist. Today, Shubham's Diner stands as a testament to his vision, offering a diverse menu inspired by the rich culinary heritage of China, Japan, Thailand, and beyond.</p>
+            <p>At Shubham's, we believe in using only the freshest ingredients to craft dishes that delight the senses. From savory stir-fries to delicate sushi rolls, each item on our menu is prepared with care and attention to detail. Whether you're craving classic comfort food or looking to explore new flavors, there's something for everyone at Shubham's Diner.</p>
+            <p>But Shubham's Diner is more than just a place to enjoy great food. It's a gathering place for friends and family, where laughter is shared and memories are made. Our cozy atmosphere and friendly staff create a welcoShubham environment where guests feel right at home.</p>
+            <p>Come join us at Shubham's Diner and experience the true taste of Asia. Whether you're dining in with us or taking your meal to go, we promise an unforgettable culinary journey that will keep you coShubham back for more.</p>
+        </div>
+    </section>
+    
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-5">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Appetizers</h3>
+                    <ul>
+                        <li>Spring Rolls</li>
+                        <li>Edamame</li>
+                        <li>Gyoza</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3>Entrees</h3>
+                    <ul>
+                        <li>General Tso's Chicken</li>
+                        <li>Sushi Platter</li>
+                        <li>Pad Thai</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Soups & Salads</h3>
+                    <ul>
+                        <li>Miso Soup</li>
+                        <li>Seaweed Salad</li>
+                        <li>Tom Yum Soup</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3>Desserts</h3>
+                    <ul>
+                        <li>Mochi Ice Cream</li>
+                        <li>Green Tea Cheesecake</li>
+                        <li>Chocolate Lava Cake</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have a question or feedback? Get in touch with us using the form below:</p>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Shubham's Diner</p>
+    </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.carousel').carousel({
+                interval: 3000 
+            });
+        });
+    </script>
+
+</body>
+
+</html>
