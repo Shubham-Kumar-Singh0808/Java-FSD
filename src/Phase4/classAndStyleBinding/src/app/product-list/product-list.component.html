@@ -1,0 +1,15 @@
+<table>
+    <tr>
+        <th>Product Name</th>
+        <th>Available</th>
+        <th>Price</th>
+        <th>Rating</th>
+    </tr>
+    <tr *ngFor="let product of products">
+        <td>{{ product.productName }}</td>
+        <td [class.inStock]="product.available">{{ product.available ? 'Yes' : 'No' }}</td>
+        <td [style.color]="product.price > 20 ? 'red' : 'green'"
+            [style.fontWeight]="product.price > 20 ? '700' : 'normal'">{{ product.price }}</td>
+        <td>{{ product.rating }}</td>
+    </tr>
+</table>
