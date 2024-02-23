@@ -58,8 +58,6 @@ export class AppComponent implements OnInit {
   ontyping(event: any) {
     this.name = event.target.value;
   }
-
-  // Define the 'signup' method
  signup() {
     const firstName = this.registerForm.value.firstName;
     const lastName = this.registerForm.value.lastName;

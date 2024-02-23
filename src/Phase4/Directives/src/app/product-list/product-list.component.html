@@ -1,0 +1,23 @@
+<!-- product-list.component.html -->
+
+<h2>Product List</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Code</th>
+      <th>Date</th>
+      <th appChangeColor>Price</th> 
+      <th>Rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of products">
+      <td>{{ product.name }}</td>
+      <td>{{ product.code }}</td>
+      <td>{{ product.date }}</td>
+      <td>{{ product.price }}</td>
+      <td>{{ product.rating }}</td>
+    </tr>
+  </tbody>
+</table>
