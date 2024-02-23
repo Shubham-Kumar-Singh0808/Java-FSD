@@ -1,0 +1,49 @@
+.custom-content {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.custom-content h1 {
+    font-size: 24px;
+}
+
+.custom-content p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.custom-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #008888;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #006666; /* Darken color on hover */
+}

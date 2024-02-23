@@ -1,0 +1,44 @@
+.jumbotron {
+    color: #008888;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+    max-width: 500px;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.container {
+    text-align: center;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+}
+
+.container input[type="text"]:focus,
+.container input[type="password"]:focus {
+    outline: none;
+    border-color: #ffff00; /* Change border color on focus */
+    box-shadow: 0px 0px 5px rgba(255, 255, 0, 0.5); /* Adding box shadow on focus */
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #008888;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #006666; /* Darken color on hover */
+}

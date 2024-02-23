@@ -1,0 +1,43 @@
+
+
+.custom-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #008888;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.custom-navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.custom-nav-item {
+    margin-left: 20px;
+}
+
+.custom-logo {
+    width: 50px;
+    height: auto;
+}
+
+.custom-brand {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.custom-btn {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.custom-btn:hover {
+    color: #ffff00; /* Change color on hover */
+}

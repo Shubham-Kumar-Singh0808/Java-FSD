@@ -1,0 +1,29 @@
+.custom-content {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.custom-content h1 {
+    font-size: 24px;
+}
+
+.custom-content h2 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.custom-content p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.custom-content ul {
+    margin-top: 10px;
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.custom-content li {
+    font-size: 16px;
+    line-height: 1.6;
+}
