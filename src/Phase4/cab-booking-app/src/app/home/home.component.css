@@ -1,0 +1,74 @@
+.container-fluid{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar {
+    background-color: #ffffff; /* Background color */
+    padding: 10px 20px; /* Padding */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Align items evenly */
+    align-items: center; /* Center items vertically */
+}
+
+/* Logo */
+.navbar-brand img {
+    max-height: 40px; /* Set max height for the logo */
+}
+
+/* Navbar Links */
+.navbar-nav {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center items vertically */
+}
+
+.navbar-nav .nav-item {
+    margin-left: 20px; /* Add margin between menu items */
+}
+
+.navbar-nav .nav-link {
+    color: #333333; /* Text color */
+    font-weight: bold; /* Font weight */
+    text-decoration: none; /* Remove underline */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Hover color */
+}
+
+
+.carousel {
+    height: 400px; /* Set the height of the carousel */
+    background-image: url('https://vilmate.com/wp-content/uploads/2019/03/What-does-it-take-to-create-a-taxi-booking-app-like-Lyft-Uber-and-Gett_1.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
+}
+
+/* Carousel Content */
+.carousel-content {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: end; /* Center content vertically */
+    align-items: last baseline; /* Center content horizontally */
+    height: 100%; /* Set height to fill the carousel */
+    padding: 15px;
+}
+
+.carousel-content h1 {
+    font-size: 2rem; /* Set font size for the heading */
+    color: #fff200; /* Text color */
+}
+
+.carousel-content h3 {
+    font-size: 1.5rem; /* Set font size for the subheading */
+    color: #fff200; /* Text color */
+}
+
+.carousel-content .btn {
+    margin-top: 10px;
+    background-color: #fff200;
+    border-radius: 5px;
+    padding: 7px;
+    color: #008888;
+    border: none;
+}

@@ -1,0 +1,63 @@
+<div class="container">
+    <h1 class="text-center">Cab Booking</h1>
+    <div class="form-group">
+        <label for="from">From:</label>
+        <select class="form-control" id="from">
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="Gurugram">Gurugram</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="to">To:</label>
+        <select class="form-control" id="to">
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="Gurugram">Gurugram</option>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-md-6" *ngFor="let driver of drivers">
+            <div class="driver-details">
+                <img class="driver-image" src="{{ driver.image }}" alt="Driver Image">
+                <div class="driver-info">
+                    <p><strong>Name:</strong> {{ driver.driverName }}</p>
+                    <p><strong>Vehicle Model:</strong> {{ driver.vehicleModel }}</p>
+                    <p><strong>Arrival:</strong> {{ driver.arrivalTime }}</p>
+                    <p><strong>Duration:</strong> {{ driver.duration }}</p>
+                    <p><strong>Rating:</strong> {{ driver.driverRating }}</p>
+                    <p><strong>Fare:</strong> {{ driver.fare }}</p>
+                    <button class="btn btn-primary" (click)="showDetails(driver)">Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="driverDetailsModal" tabindex="-1" role="dialog" aria-labelledby="driverDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="driverDetailsModalLabel">Driver Details</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="driver-image" [src]="selectedDriver?.image" alt="Driver Image">
+                <div class="driver-info">
+                    <p><strong>Name:</strong> {{ selectedDriver?.driverName }}</p>
+                    <p><strong>Vehicle Model:</strong> {{ selectedDriver?.vehicleModel }}</p>
+                    <p><strong>Arrival:</strong> {{ selectedDriver?.arrivalTime }}</p>
+                    <p><strong>Duration:</strong> {{ selectedDriver?.duration }}</p>
+                    <p><strong>Rating:</strong> {{ selectedDriver?.driverRating }}</p>
+                    <p><strong>Fare:</strong> {{ selectedDriver?.fare }}</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" (click)="bookNow()">Book Now</button>
+            </div>
+        </div>
+    </div>
+</div>

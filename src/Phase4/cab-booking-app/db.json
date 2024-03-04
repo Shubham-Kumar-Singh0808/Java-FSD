@@ -1,0 +1,28 @@
+{
+    "users": [],
+    "nearbyDrivers": [
+        {
+            "driverName": "Abhishek",
+            "vehicleNumber": "DL-CS7278",
+            "driverRating": "4",
+            "vehicleModel": "Polo",
+            "arrivalTime": "9:32 am",
+            "duration": "43 mins",
+            "fare": "345",
+            "from": "Delhi",
+            "to": "Gurugram"
+        },
+        {
+            "driverName": "Chanchal",
+            "vehicleNumber": "DL-CL6828",
+            "driverRating": "5",
+            "vehicleModel": "Swift",
+            "arrivalTime": "9:35 am",
+            "duration": "44 mins",
+            "fare": "350",
+            "from": "Delhi",
+            "to": "Gurugram"
+        }
+    ],
+    "bookings": []
+}
